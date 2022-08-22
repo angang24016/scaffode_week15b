@@ -1,0 +1,9 @@
+const express = require('express')
+const router = express.Router()
+
+//GET About page
+router.get('/',()=>{
+    res.render('pages/About', {title: 'About page'})
+})
+
+module.express = router
